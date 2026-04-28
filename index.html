@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <meta name="description" content="უძრავი ქონების პლატფორმა">
+
+  <meta property="og:title" content="Real Estate">
+  <meta property="og:description" content="Find the house you want easily">
+  <meta property="og:image" content="preview.jpg">
+
+  
+  <meta itemprop="name" content="Real Estate">
+
+  <title>Home</title>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+  </style>
+</head>
+
+<body class="bg-gray-100">
+
+
+<header class="flex justify-between items-center p-4 bg-white shadow">
+  <a href="#" class="font-bold text-green-600 text-xl">🏠</a>
+
+  <nav class="hidden md:flex gap-6 text-gray-600">
+    <a href="#" class="text-green-600">Home</a>
+    <a href="#">Discover</a>
+    <a href="#">Contact us</a>
+    <a href="#">Sign in</a>
+  </nav>
+
+  <button class="bg-green-500 text-white px-4 py-2 rounded-lg">
+    Sell Something
+  </button>
+</header>
+
+
+<div class="flex flex-col lg:flex-row gap-6 p-6">
+
+  
+  <aside class="bg-white p-4 rounded-xl shadow w-full lg:w-1/4">
+    <h3 class="font-semibold mb-3">Location</h3>
+    <select class="w-full border p-2 rounded mb-4">
+      <option>All Kenya</option>
+    </select>
+
+    <h3 class="font-semibold mb-2">Property</h3>
+    <div class="space-y-2 text-sm">
+      <label><input type="checkbox"> House</label><br>
+      <label><input type="checkbox"> Apartment</label><br>
+      <label><input type="checkbox"> Land</label>
+    </div>
+  </aside>
+
+  
+  <div class="flex-1">
+
+    
+    <div class="bg-white p-6 rounded-xl shadow mb-6">
+      <h1 class="text-2xl md:text-3xl font-semibold mb-2 text-center">
+        Find the house you want easily
+      </h1>
+
+      <input type="text" placeholder="Search..."
+        class="w-full mt-4 border p-2 rounded-lg">
+    </div>
+
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      
+      <a href="product.html" class="bg-white rounded-xl shadow hover:scale-105 transition block">
+        <img src="https://via.placeholder.com/300" class="rounded-t-xl">
+        <div class="p-4">
+          <h2 class="font-semibold text-sm">200 Acres Parcel for Sale</h2>
+          <p class="text-green-600 font-bold mt-2">1405$</p>
+        </div>
+      </a>
+
+      <a href="product.html" class="bg-white rounded-xl shadow hover:scale-105 transition block">
+        <img src="https://via.placeholder.com/300" class="rounded-t-xl">
+        <div class="p-4">
+          <h2 class="font-semibold text-sm">Modern House</h2>
+          <p class="text-green-600 font-bold mt-2">1405$</p>
+        </div>
+      </a>
+
+    </div>
+
+  </div>
+</div>
+
+<footer class="bg-green-600 text-white p-6 mt-10 text-center">
+  © 2025 Real Estate
+</footer>
+
+</body>
+</html>
